@@ -1,0 +1,112 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+
+/* Header Styles */
+.topnav {
+    background-color: #44159a;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Section Styles */
+section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+blockquote {
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+p.testimonial-author {
+    font-size: 18px;
+    color: #3511c6;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+/* Footer Styles */
+.my-footer {
+    width: 100%;
+    background-color: #11c623;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.my-footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.my-footer i {
+    font-size: 30px;
+    line-height: 1;
+    transition: color 0.2s ease-in-out;
+}
+
+.my-footer i:hover {
+    color: #0c3ae1;
+}
+
+.horizontal {
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+.rights {
+    font-size: 14px;
+    margin-top: 0;
+}
+
